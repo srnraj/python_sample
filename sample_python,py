@@ -1,0 +1,32 @@
+# Define the name of the first course
+course1 = "Python with Gereractive AI"
+
+# Define the name of the second course
+course2 = "2d & 3d Animation using Blender"
+
+# Start an infinite loop to repeatedly prompt the user for input
+while True:
+    # Prompt the user to enter their name
+    name = input("Enter your name: ")
+    
+    # Prompt the user to select a course (either 1 or 2)
+    choice = input("Select your Course 1 or 2: ")
+    
+    # Check if the user chose the first course
+    if choice == '1':
+        # Display a welcome message with the user's name and the first course
+        print("Welcome",name,"You are onboarded to", course1)
+        # Break out of the loop, as the task is completed
+        break
+    
+    # Check if the user chose the second course
+    elif choice == '2':
+        # Display a welcome message with the user's name and the second course
+        print("Welcome",name,"You are onboarded to", course2)
+        # Break out of the loop, as the task is completed
+        break
+    
+    # If the user's choice is neither 1 nor 2
+    else:
+        # Display a message indicating an invalid choice and prompt the user again
+        print("Invalid choice. Please enter 1 or 2.")
