@@ -1,0 +1,13 @@
+	n1=int(input("enter first number:"))
+	n2=int(input("enter second number:"))
+	product=0
+	count=n1
+	while count >0:
+	    count=count-1
+	    product=product+n2
+	print("the product fo",n1,"and",n2,"is",product)
+
+output:
+enter first number:6
+enter second number:7
+the product fo 6 and 7 is 42
