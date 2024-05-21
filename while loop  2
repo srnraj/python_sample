@@ -1,0 +1,11 @@
+
+# break - Exits the loop entirely
+user_input = ""
+while user_input != "quit":
+  user_input = input("Enter a message (type 'quit' to exit): ")
+  if user_input != "quit":
+    print(f"You entered: {user_input}")
+  else:
+    print("Exiting loop...")
+
+print("Program finished!")
