@@ -1,0 +1,22 @@
+while True:
+  name = input("Enter a student name: ")
+  a = int(input("Enter English mark: "))
+  b = int(input("Enter Tamil mark: "))
+  c = int(input("Enter Maths mark: "))
+  d = int(input("Enter Science mark: "))
+  e = int(input("Enter Social Science mark: "))
+  z = a + b + c + d + e
+  print(z)
+  if a >= 35 and b >= 35 and c >= 35 and d >= 35 and e >= 35:
+      print(name, "got pass marks in all subjects.")
+      if a >= 80 or b >= 80 or c >= 80 or d >= 80 or e >= 80:
+          print(name, "got very good marks.")
+      else:
+          print(name, "got average marks.")
+  else:
+      print(name, "got fail marks in one or more subjects.")
+  choice = input("Do you want to continue: ")
+  if choice=="yes":
+      print("exist the program")
+  else:
+      break
